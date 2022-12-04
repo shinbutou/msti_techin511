@@ -12,8 +12,8 @@
 #define NUM_PIXELS     20  // The number of LEDs (pixels) on NeoPixel
 Adafruit_NeoPixel NeoPixel(NUM_PIXELS, PIN_NEO_PIXEL, NEO_GRB + NEO_KHZ800);
 
-float smoothness_pts = 2222; // Larger this number is, slower the change would be
-float gamma = 0.25; // Affecting the width of peak (more or less darkness)
+float smoothness_pts = 3333; // Larger this number is, slower the change would be
+float gamma = 0.33; // Affecting the width of peak (more or less darkness)
 float beta = 0.5; // Shifting the gaussian to be symmetric
 
 void setup() {
